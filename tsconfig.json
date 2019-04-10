@@ -1,0 +1,43 @@
+// {
+//     "extends": "./tsconfig.base.json",
+//     "compileOnSave": true,
+//     "compilerOptions": {
+//         "removeComments": false,
+//         "preserveConstEnums": true,
+//         "sourceMap": true,
+//         "outDir": "out",
+//         "target": "es6",
+//         "module": "commonjs",
+//         "lib": [
+//             "es6",
+//             "dom",
+//             "es2015.iterable"
+//         ],
+//         "emitDecoratorMetadata": true,
+//         "experimentalDecorators": true,
+//         "rootDir": "."
+//     },
+//     "include": [
+// 		"./typings",
+// 		"./vs",
+// 		"./sql",
+// 		"./sqltest"
+// 	],
+//     "exclude": [
+//         "node_modules",
+//         ".vscode-test",
+//         "outputview-src",
+//         "preview-src",
+//         "src/views"
+//     ]
+// }
+
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "target": "es6",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./out"
+    }
+}
